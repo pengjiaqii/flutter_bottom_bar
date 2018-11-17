@@ -1,8 +1,3 @@
-# flutter_demo
+### 简介
+仿写app常用的底部切换栏，功能比较简单
 
-A new Flutter application.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
