@@ -102,8 +102,6 @@ class _FirstTabState extends State<FirstTab> {
                 pair.asPascalCase,
                 style: _textFont,
               ),
-            
-            
             );
           }
         
