@@ -1,17 +1,11 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_biu/login.dart';
 import './pages/FirstTab.dart';
 import './pages/SecondTab.dart';
 import './pages/ThirdTab.dart';
 
-void main(){
-  runApp(
-    new MaterialApp(
-      title:'tabdemo',
-      home:new HomePage()
-    )
-  );
-}
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -22,7 +16,6 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   
   //Tab页的控制器，可以用来定义Tab标签和内容页的坐标
   TabController tabcontroller;
-  
   
   //生命周期方法插入渲染树时调用，只调用一次
   @override

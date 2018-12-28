@@ -28,7 +28,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  # Toast
+  fluttertoast: ^2.2.2
   #这两个是dev的，不要放到上面去了哦
   build_runner: ^0.9.0
   json_serializable: ^0.5.4
